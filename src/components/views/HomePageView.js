@@ -1,16 +1,12 @@
-/*==================================================
-HomePageView.js
+import React from "react";
 
-The Views component is responsible for rendering web page with data provided by the corresponding Container component.
-It constructs a React component to display the home page.
-================================================== */
 const HomePageView = () => {
-  // Render Home page view
   return (
-    <div >
-      <h1>Home Page</h1>
+    <div className="main-content">
+      <h1>Welcome</h1>
+      <p>Use the navigation above to view campuses and students.</p>
     </div>
-  );    
-}
+  );
+};
 
 export default HomePageView;
